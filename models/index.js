@@ -22,7 +22,7 @@ Product.belongsToMany(Tag, {
 Tag.belongsToMany(Product, {
   through: ProductTag,
   foreignKey: 'tag_id',
-});
+}); fil
 module.exports = {
   Product,
   Category,
